@@ -1,20 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Main from './components/Main';
 import './App.css';
 
-function App() {
+const App  = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          React is a very good library.
-        </a>
-      </header>
+    <div className='App'>
+      <Header />
+
+      <Main />
+
+      <Footer />
+      
     </div>
   );
 }
