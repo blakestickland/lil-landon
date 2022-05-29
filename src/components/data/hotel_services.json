@@ -1,47 +1,47 @@
 [
     {
-        "item": "Indoor pool"
+        "service": "Indoor pool"
     },   
     {
-        "item": "24-hour fitness center"
+        "service": "24-hour fitness center"
     },   
     {
-        "item": "Massage therapy"
+        "service": "Massage therapy"
     },   
     {
-        "item": "Full service spa"
+        "service": "Full service spa"
     },   
     {
-        "item": "In-room jacuzzi tubs"
+        "service": "In-room jacuzzi tubs"
     },   
     {
-        "item": "Rooftop café &amp; smoothie bar"
+        "service": "Rooftop café &amp; smoothie bar"
     },   
     {
-        "item": "Coffee bar &amp; pastry shop"
+        "service": "Coffee bar &amp; pastry shop"
     },   
     {
-        "item": "Traditional continental breakfast"
+        "service": "Traditional continental breakfast"
     },   
     {
-        "item": "24-hour concierge service"
+        "service": "24-hour concierge service"
     },   
     {
-        "item": "Business center"
+        "service": "Business center"
     },   
     {
-        "item": "Complimentary wireless service"
+        "service": "Complimentary wireless service"
     },   
     {
-        "item": "Laundry &amp; dry cleaning service"
+        "service": "Laundry &amp; dry cleaning service"
     },   
     {
-        "item": "Daily paper"
+        "service": "Daily paper"
     },   
     {
-        "item": "Certified 'green' hotel"
+        "service": "Certified 'green' hotel"
     },   
     {
-        "item": "Pet-friendly rooms &amp; common areas"
+        "service": "Pet-friendly rooms &amp; common areas"
     }  
 ]

@@ -44,8 +44,8 @@ const HotelInfo = () => {
               your stay comfortable, and your experience one-of-a-kind.
             </p>
             <ul>
-              {servicesData.map((list) => (
-                <li>{list.item}</li>
+              {servicesData.map((service) => (
+                <li>{service.service}</li>
               ))}
             </ul>
           </section>
