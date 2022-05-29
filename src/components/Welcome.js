@@ -1,6 +1,21 @@
-import welcomeGalleryData from "./data/welcome_gallery.json";
+import { useState, useEffect } from 'react';
 
 const Welcome = () => {
+  const [welcomeGalleryData, setWelcomeGalleryData] = useState([]);
+
+  const loadGalleryImages = async () => {
+    const response = await fetch(
+      `https://7de14megw2.execute-api.ap-southeast-2.amazonaws.com/Production/gallery`
+    );
+    const jsonData = await response.json();
+
+    setWelcomeGalleryData(jsonData);
+  }
+
+  useEffect(() => {
+    loadGalleryImages();
+  }, []);
+
     return (
       <div className="scene" id="welcome">
         <article className="content">
@@ -24,7 +39,6 @@ const Welcome = () => {
             <a href="files/landon_information_sheet_London.pdf">
               download our handy information sheet
             </a>
-            .
           </p>
         </article>
       </div>
